@@ -6,8 +6,8 @@ import time
 from pythonping import ping
 from datetime import datetime
 
-RETRY_TIMER = 10
-MAIN_TEST_URL = 'versatel.de'
+RETRY_TIMER = 5
+MAIN_TEST_URL = 'google.de'
 
 
 def done():
