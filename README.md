@@ -6,7 +6,7 @@ In letzter Zeit verliere ich wieder öfters die Verbindung zum Internet. Meisten
 gerade brauche - man kennt es. Mit diesem Python Script möchte ich das Ganze aufzeichnen. Ich habe bestimmt irgendwas
 im Script vergessen zu beachten, aber dafür ist es ja öffentlich. 
 
-Ich werde dieses Script auf meinem Raspberry Pi Zero W alle 5 Minuten über einen Cronjob laufen lassen. Am Start des
+Ich werde dieses Script auf meinem Raspberry Pi Zero W jede Minute über einen Cronjob laufen lassen. Am Start des
 Scripts wird überprüft, ob überhaupt eine Verbindung zur FritzBox besteht. Sollte das nicht der Fall sein, wird nach 10
 Sekunden erneut versucht, das Internet zu überprüfen. Immerhin will ich keine falschen Meldungen erzeugen, nur weil
 das WLAN gerade nicht will :)
